@@ -7,6 +7,10 @@
 
 /* genearl rules */
 
+h1, h3{
+    font-family: "Fredoka One";
+}
+
 h1{
     color: rgb(229,49,112);
     margin-bottom: 30px;
@@ -24,6 +28,10 @@ img{
 
 /* header */
 
+#head-txt{
+    font-size: 20px;
+    font-weight: lighter;
+}
 
 /* main */
 
@@ -36,9 +44,25 @@ img{
 .col{
     background-color: rgb(15,14,23);
     float: left;
-    width: calc(100%/3);
+    width: calc((100%/3) - 40px);
+    margin: 20px;
+}
+
+.col-txt{
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 10px;
+    padding: 5px;
+    line-height: 25px;
 }
 
 .row{
     margin-top: 30px;
+}
+
+/* inter main */
+
+.inter-col{
+    float: left;
 }
